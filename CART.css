@@ -1,0 +1,333 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+    background-color: rgb(42, 40, 43);
+    border-radius: 5px;
+
+   
+}
+.logo{
+    color: white;
+}
+
+.home{
+    text-decoration: none;
+}
+.liens{
+    margin-top: 20px;
+}
+
+.cart {
+    text-decoration: none;
+    color: rgb(1, 137, 228);
+    background-color: rgb(3, 3, 83);
+    padding: 13px;
+    font-size: large;
+    border-radius: 30px;
+    font-weight: 900;
+
+}
+
+.cart .fa-solid {
+    color: rgb(1, 137, 228);
+    padding-right: 5px;
+}
+
+.sign {
+    margin-inline: 1.2rem;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+
+.Register {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+.sin:hover{
+    scale: 0.5;
+}
+
+.fa-solid {
+    color: rgb(195, 0, 202);
+    
+}
+.home{
+    color: white;
+    font-size: medium;
+}
+.logo:hover{
+    scale: 0.95;
+    color: aqua;
+}
+
+
+.sign:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+    
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+    
+}
+
+.Register:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+}
+
+.pro-number {
+    position: absolute;
+    background-color: rgb(241, 94, 94);
+    width: 22px;
+    height: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    top: -8px;
+    right: 0;
+    font-size: 0.9rem;
+}
+
+/* ======LOGO====== */
+
+.fa-bag-shopping {
+    font-size: 2rem;
+}
+
+
+@media (width < 600px) {
+    .logo {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+        padding-inline: 0;
+    }
+
+    .liens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 10px;
+    }
+ 
+
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    background: linear-gradient(45deg,rgb(94, 202, 235),#ff31ff,#fdcf03,#005f49);
+    background-size: 300% 300%;
+}
+
+
+.parent{
+    display: flex;
+    align-items: center;
+
+}
+
+.arti{
+    background-color: rgb(255, 255, 255);
+    border-top: 2px solid blue;
+    border-bottom: 2px solid rgb(0, 255, 34);
+    margin-top: 1.8rem;
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 15px -1px rgba(0, 0, 0, 2);
+}
+.btn3{
+    cursor: pointer;
+    background-color:white ;
+    border: 0;
+    font-size: medium;
+}
+.btn3:hover{
+    scale: 0.9;
+}
+.del{
+    color: red;
+}
+.moins{
+    color: rgb(42, 114, 207);
+    font-size: large;
+    font-weight: 900;
+    border: 0;
+    background-color: white;
+    margin-right: 7px;
+    margin-bottom: px;
+    cursor: pointer;
+}
+.moins:hover{
+    scale: 0.95;
+    background-color: rgb(213, 214, 214);
+    border-radius: 100px;
+    
+}
+.plus{
+    color: rgb(42, 114, 207);
+    font-size:x-large;
+    border: 0;
+    background-color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.plus:hover{
+    scale: 0.95;
+    background-color: rgb(213, 214, 214);
+    border-radius: 100px;
+}
+.quant{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(42, 114, 207);
+    color: white;
+    border-radius: 100px;
+    padding-top: 3px;
+    font-size: large;
+}
+.title{
+    font-family:'Trebuchet MS' ;
+    color: rgb(5, 5, 41);
+    font-size: large;
+    margin-top: 25px;
+}
+
+.price{
+    font-family:'Trebuchet MS' ;
+    color: rgb(5, 5, 41);
+    font-size: large;
+    margin-top: 25px;
+}
+
+.btn2{
+    background-color: #ad0096;
+    color: white;
+    font-family:'Trebuchet MS';
+    padding: 8px;
+    border-radius: 10px;
+    border: 0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+.btn2:hover{
+    transform: scale(1.1);
+    background-color: rgb(247, 42, 42)
+}
+.del1{
+    color: white;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+
+}
+
+footer{
+    background-color: rgb(43, 40, 40);
+    height: 70px;
+    color: white;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.aymen{
+    color: rgb(228, 46, 46);
+}
+
+.summ{
+    background-color: white;
+    box-shadow: 3px 2px 15px -1px rgba(0, 0, 0, 2);
+    width:333px;
+    margin-inline: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.summ h1{
+    font-family:'Trebuchet MS' ;
+    color: rgb(5, 5, 41);
+    font-size: x-large;
+    padding-block: 0.5rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+}
+.fad{
+    display: flex;
+    justify-content: space-between;
+}
+
+.total{
+    font-family:'Trebuchet MS' ;
+    color: rgb(5, 5, 41);
+    font-size: x-large;
+}
+.checkout{
+    background-color: rgb(42, 114, 207);
+    width: 100%;
+    color: white;
+    font-family: 'Trebuchet MS' ;
+    font-size: large;
+    font-weight: 500;
+    padding-block: 0.4rem;
+    border: 0;
+    margin-bottom: 10px;
+}
+.link12{
+    margin-bottom: 20px;
+   padding-bottom: 10px;
+}
+button:disabled{
+    opacity: 0.7;
+    cursor: not-allowed ;
+}
+.link2{
+    color: red;
+    font-family: 'Trebuchet MS' ;
+    font-size: large;
+    text-decoration: none;
+}

@@ -1,0 +1,488 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem; 
+}
+
+
+.liens{
+    margin-top: 20px
+    ;
+}
+.cart {
+    text-decoration: none;
+    color: rgb(1, 137, 228);
+    background-color: rgb(3, 3, 83);
+    padding: 13px;
+    font-size: large;
+    border-radius: 30px;
+    font-weight: 900;
+}
+
+
+.cart .fa-solid {
+    color: rgb(1, 137, 228);
+    padding-right: 5px;
+}
+
+.sign {
+    margin-inline: 1.2rem;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.Register {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+    cursor: pointer;
+}
+.Register:hover{
+    scale: 0.9;
+}
+
+.fa-solid {
+    color: rgb(145, 145, 145);
+}
+
+.sign:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+    scale: 0.9;
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+}
+
+.Register:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+}
+
+.pro-number {
+    position: absolute;
+    background-color: rgb(241, 94, 94);
+    width: 22px;
+    height: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    top: -8px;
+    right: 0;
+    font-size: 0.9rem;
+}
+
+/* ======LOGO====== */
+
+.fa-bag-shopping {
+    font-size: 2rem;
+}
+
+.logo{
+    color: white;
+    transition: transform 1s, background-color 1s;
+    cursor: pointer;                                                                                                                                                                                                                                                                                                                                                                                                                                      
+}
+.logo:hover{
+    transform: scale(1.2);
+    color: blue;
+    
+    text-shadow: 0 0 50px #0f0,
+                     0 0 100px #0f0,
+                     0 0 150px #0f0,
+                     0 0 200px #0f0,
+                     0 0 250px #0f0;
+    animation: amin 3s linear infinite;
+    color: rgb(231, 194, 30);
+    
+    @keyframes amin {
+        0%{
+            filter: hue-rotate(0deg);
+        }
+        100%{
+            filter: hue-rotate(360deg);
+        }
+    }
+}
+.anim{
+    text-shadow: 0 0 50px #0f0,
+                 0 0 100px #0f0,
+                 0 0 150px #0f0,
+                 0 0 200px #0f0,
+                 0 0 250px #0f0;
+    animation: amin 3s linear infinite;
+    color: rgb(231, 194, 30);
+}
+
+@keyframes amin {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+@media (width < 600px) {
+    .logo {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+        padding-inline: 0;
+    }
+
+    .liens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+
+}
+
+.content {
+    font-size: 2rem;
+    margin-top: 120px;
+    margin-left: 10%;
+    background-color: rgba(235, 234, 234, 0.3);
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    ;
+    border-radius: 10px;
+    width: 400px;
+    padding: 20px;
+    opacity: 1;
+}
+
+div.image {
+    background-image: url(pixel\ picture.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clips{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+
+}
+@media  (width <1400px){
+    .cont-vid{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (width < 1000) {
+    div.image {
+        background-position: left;
+    }
+}
+
+.life {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-weight: 360;
+    color: rgb(5, 5, 41);
+}
+
+.men {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-weight: bold;
+    margin-top: -15px;
+    color: rgb(5, 5, 41);
+}
+
+.AND {
+    color: rgb(255, 0, 0);
+}
+
+.sale {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-weight: bold;
+    margin-top: -15px;
+    color: rgb(5, 5, 41);
+}
+
+.sale span {
+    color: rgb(255, 0, 0);
+    margin-left: 15px;
+
+}
+
+.free {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    margin-top: -15px;
+    color: rgb(5, 5, 41);
+    font-weight: 500;
+}
+
+.bt1 {
+    background-color: rgb(19, 18, 18);
+    padding: 10px 25px;
+    color: white;
+    border-radius: 6px;
+    font-size: 0.9rem;
+}
+.bt1:hover{
+    scale: 0.9;
+}
+
+.produit {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.card {
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+    ;
+    border-radius: 5px;
+    transition: 0.9s;
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    height: auto;
+    margin-bottom: 50px;
+    transition: 1.6s;
+}
+
+.card:hover{
+    scale: 1.02;
+}
+.shop-now{
+    background-color: rgb(35, 148, 201);
+    color: white;
+    padding: 8px 15px 8px 15px;
+    border-radius: 3px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-weight: 600;
+}
+.shop-now:hover{
+    scale: 0.96;
+    background-color: rgb(214, 219, 223);
+    color: black;
+    .fa-solid{
+        color: black;
+    }
+}
+.shop-now .fa-solid{
+    color: white;
+}
+
+
+
+img {
+    border-radius: 5px 5px 0 0;
+    width: 200px;
+}
+
+img:hover{
+    scale: 0.9;
+    transition: 0.5s;
+}
+
+.content-cart {
+    background-color: rgb(255, 255, 255);
+    width: 200px;
+    border-top: solid gray;
+    
+}
+
+
+.rec {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: 1.6rem;
+    color: rgb(5, 5, 41);
+    margin-bottom: 30px;
+}
+
+.titre {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    
+    color: rgb(5, 5, 41);
+    margin-left: 20px;
+
+}
+
+.description {
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-weight: 600;
+}
+
+body{
+    background: linear-gradient(45deg,rgb(250, 247, 246),#1ef0ff,#ff0bf3,#0127fd);
+    background-size: 300% 300%;
+}
+
+
+main {
+    margin-top: 50px;
+    width: 90%;
+    margin-inline: auto;
+    
+    
+}
+
+@media (width < 600px) {
+    main {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .content{
+        width: 100%;
+    }
+
+    .bt1 {
+        background-color: rgb(73, 0, 207);
+        padding: 5px 12px;
+        color: white;
+        border-radius: 3px;
+        font-size: 0.9rem;
+    }
+
+
+}
+
+
+.prix {
+    font-weight: bold;
+    color: rgb(255, 49, 49);
+    margin-left: 10px;
+}
+
+.spa{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.add-cart {
+    background-color: rgb(52, 140, 255);
+    color: white;
+    padding: 10px;
+    border: rgb(52, 140, 255);
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 2);
+}
+.add-cart:hover{
+    scale: 0.9;
+    cursor: pointer;
+}
+
+.add {
+    color: white;
+}
+
+@media (width < 400px) {
+    .bt1 {
+        background-color: rgb(189, 0, 189);
+        padding: 2px 6px;
+        color: white;
+        border-radius: 3px;
+        font-size: 0.9rem;
+    }
+   
+    .produit{
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        font-size: 1rem;
+        margin-left:0 ;
+    }
+    
+
+    .rec {
+        font-size: 1.2rem;
+    }
+    .content-cart {
+        background-color: rgb(255, 255, 255);
+        width: 150px;
+    }
+    .flex{
+        margin-top: 25px;
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        border-radius: 5px 5px 0 0;
+        width: 150px;
+
+    }
+    .card{
+        width: 150px;
+    }
+    main {
+        margin-top: 50px;
+        width: 90%;
+        margin-inline: auto;
+    }
+    .add-cart {
+        background-color: rgb(112, 0, 146);
+        color: white;
+        padding: 5px;
+        border: rgb(112, 0, 146);
+        border-radius: 5px;
+        box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 2);
+    }
+    .shop-now{
+        background-color: rgb(201, 125, 11);
+        padding: 6px 13px 6px 13px;
+        border-radius: 3px;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+
+}
+
+footer{
+    background-color: rgb(43, 40, 40);
+    height: 70px;
+    color: white;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px 10px 0 0;
+    margin-top: 60px;
+}
+.aymen{
+    color: rgb(228, 46, 46);
+}
