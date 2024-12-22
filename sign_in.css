@@ -1,0 +1,210 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 10%;
+    padding-top: 1.2rem;
+    /* background-color: rgb(8, 8, 8); */
+    border-radius: 5px;
+
+   
+}
+.logo{
+    color: white;
+}
+
+.home{
+    text-decoration: none;
+}
+.liens{
+    margin-top: 20px;
+}
+
+.cart {
+    text-decoration: none;
+    color: rgb(1, 137, 228);
+    background-color: rgb(3, 3, 83);
+    padding: 13px;
+    font-size: large;
+    border-radius: 30px;
+    font-weight: 900;
+
+}
+
+.cart .fa-solid {
+    color: rgb(1, 137, 228);
+    padding-right: 5px;
+}
+
+.sign {
+    margin-inline: 1.2rem;
+    border: 1px solid rgb(215, 19, 233);
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+
+.Register {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 22px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-weight: 900;
+    font-family: 'Trebuchet MS';
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+.sin:hover{
+    scale: 0.5;
+}
+
+.fa-solid {
+    color: rgb(195, 0, 202);
+    
+}
+.home{
+    color: white;
+    font-size: medium;
+}
+.logo:hover{
+    scale: 0.95;
+}
+
+
+/* .sign:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+    
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+    
+} */
+
+.Register:hover {
+    background-color: rgb(3, 3, 83);
+    color: rgb(1, 137, 228);
+
+    .fa-solid {
+        color: rgb(1, 137, 228);
+    }
+}
+
+.pro-number {
+    position: absolute;
+    background-color: rgb(241, 94, 94);
+    width: 22px;
+    height: 22px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    top: -8px;
+    right: 0;
+    font-size: 0.9rem;
+}
+
+/* ======LOGO====== */
+
+.fa-bag-shopping {
+    font-size: 2rem;
+}
+
+
+@media (width < 600px) {
+    .logo {
+        display: none;
+    }
+
+    .container {
+        justify-content: center;
+        padding-inline: 0;
+    }
+
+    .liens {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 10px;
+    }
+
+
+}
+footer{
+    background-color: rgba(12, 23, 25, 1);
+    height: 70px;
+    color: white;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue';
+    font-size: large;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 10px 10px 0 0;
+    
+}
+.aymen{
+    color: rgb(228, 46, 46);
+}
+.px-3{
+    display: flex;
+    justify-content: center;
+    box-shadow: 3px 2px 5px -1px rgba(1, 2, 3, 2);
+    max-width: 500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    height: 300px;
+    margin-inline:auto ;
+    background-color: rgb(18, 16, 53);
+}
+.px-3:hover{
+   
+    color: rgb(255, 136, 0);
+    
+    text-shadow: 0 0 50px rgb(0, 60, 255),
+                     0 0 100px rgb(0, 60, 255),
+                     0 0 150px rgb(0, 60, 255),
+                     0 0 200px rgb(0, 60, 255),
+                     0 0 250px rgb(0, 60, 255);
+    animation: amin 10s linear infinite;
+    color: rgb(231, 194, 30);
+    
+    @keyframes amin {
+        0%{
+            filter: hue-rotate(0deg);
+        }
+        100%{
+            filter: hue-rotate(360deg);
+        }
+    }
+}
+.anim{
+    text-shadow: 0 0 50px rgb(51, 21, 131),
+                 0 0 100px rgb(190, 9, 9),
+                 0 0 150px rgb(177, 96, 43),
+                 0 0 200px rgb(201, 31, 158),
+                 0 0 250px rgb(158, 240, 27);
+    animation: amin 1s linear infinite;
+    color: rgb(231, 194, 30);
+}
+
+@keyframes amin {
+    0%{
+        filter: hue-rotate(0deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
